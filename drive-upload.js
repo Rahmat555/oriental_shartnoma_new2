@@ -12,7 +12,7 @@ const auth = new google.auth.GoogleAuth({
 const drive = google.drive({ version: 'v3', auth });
 
 // ✅ Укажи ID папки в Shared Drive
-const folderId = '1MHnkAisRMaLL1TRQGbAXtbWxuYLHaOrE';
+const folderId = '1eVqUAGMY53rMvNdtVSkSPA3_ngm0ODvW';
 
 async function uploadToDriveAndAddQR(localPath, contractNumber) {
   try {
